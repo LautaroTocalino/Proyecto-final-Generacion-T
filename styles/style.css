@@ -1,0 +1,155 @@
+body {
+  background-image: url(/fotos_principales/Nike-sneakers-sports-light-explosion-movement-643420-wallhere.com.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 0px;
+  margin: 0;
+  font-family: sans-serif;
+
+  overflow-x: hidden;
+
+}
+
+
+
+
+header {
+  text-align: center;
+  background-color: black;
+  opacity: 0.6;
+  padding: 0px;
+}
+
+
+footer {
+  background-color: black;
+  opacity: 0.7;
+}
+
+
+
+.productDetails {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 40%;
+  padding: 50px;
+  color: #ebebeb;
+}
+
+.productTitle {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.productDesc {
+  font-style: 24px;
+  color: white;
+}
+
+.colors,
+.sizes {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.color {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+
+.size {
+  padding: 5px 20px;
+  border: 1px solid white;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.productButton {
+  float: right;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.productButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.product {
+  height: 100vh;
+  background-color: #000000;
+  position: relative;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  opacity: 0.85;
+}
+
+footer {
+  display: flex;
+}
+
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+  color: white;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.fIcons {
+  display: flex;
+}
+
+.fIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+}
